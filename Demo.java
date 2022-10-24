@@ -22,6 +22,7 @@ public class Demo {
     }
 
     public static void main(String[] args) {
+        new TelaPrincipal().setVisible(true);
         LivroDeBiblioteca L1 = new LivroDeBiblioteca("Introdução à POO usando JAVA", "Rafael Santos", "Campus/SBC", (short) 2003,"g11p17");
         System.out.print("SOBRE O LIVRO\n"+L1.getDados()+"\n----------------------------------------------------------------------------");
         System.out.println("\n");
